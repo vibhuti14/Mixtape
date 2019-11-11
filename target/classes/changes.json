@@ -1,0 +1,36 @@
+{
+  "add": {
+    "playlists": [{
+      "id": "4",
+      "user_id": "6",
+      "song_ids": [
+        "8",
+        "41"
+      ]
+    }],
+    "songs": [{
+      "id": "41",
+      "artist": "Lorde",
+      "title": "Royals"
+    }]
+  },
+  "edit": {
+    "playlists": [{
+      "id": "1",
+      "song_ids": [
+        "11"
+      ]
+    }]
+  },
+  "delete": {
+    "playlists": [{
+      "id": "2",
+      "user_id": "3",
+      "song_ids": [
+        "6",
+        "8",
+        "11"
+      ]
+    }]
+  }
+}
