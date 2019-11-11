@@ -3,7 +3,7 @@ Need java 8 to run this.
 
 Clone the project from github into your local machine.
 
-Navigate to the project on terminal and run: 
+Navigate to the project on terminal and run(Execute both the steps below incase anything, including the jsons are edited):
 
     mvn clean install
   

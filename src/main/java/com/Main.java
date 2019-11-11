@@ -8,10 +8,7 @@ public class Main {
     public static void main(String[] args) {
 
         FileParser fileParser = new FileParser();
-        TapeWrapper originalFile = fileParser.parseChangesFile(args[0],args[1]);
+        TapeWrapper originalFile = fileParser.updateFile(args[0],args[1]);
         fileParser.writeToFile(originalFile,args[2]);
     }
-
-
-
 }
